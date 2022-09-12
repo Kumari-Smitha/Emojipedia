@@ -33,13 +33,14 @@ export default function App() {
   };
 
   return (
+    <>
     <div className="App">
       <div className="center">
       <div className="emojipedia">
         <h1>Emojipedia</h1>
         <img
           style={{height:"3rem",marginTop:"1rem"}}
-          src="https://emojipedia.org/static/0c93ef5f62ceb11bf902.png"
+          src="https://emojipedia.org/static/react/ff509f29082399ee2d73a47adbb33c47.png"
           alt="emojipedia"
         />
       </div>
@@ -61,5 +62,14 @@ export default function App() {
       })}
       </div>
     </div>
+    <footer className='footer'>
+      <p className="footerText">© | 2022 | Kumari Smitha</p>
+      <ul>
+        <li><a href="https://github.com/Kumari-Smitha"><img src="github.png" alt="github"/></a></li>
+        <li><a href="https://github.com/Kumari-Smitha"><img src="linkedin.png" alt="linkedin"/></a></li>
+        <li><a href="https://github.com/Kumari-Smitha"><img src="twitter.png" alt="twitter"/></a></li>
+      </ul>
+    </footer>
+    </>
   );
 }
